@@ -16,6 +16,9 @@
 		E0B8A19A202B8448005322E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A198202B8448005322E8 /* LaunchScreen.storyboard */; };
 		E0B8A1A5202B8449005322E8 /* HeuristicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1A4202B8449005322E8 /* HeuristicsTests.swift */; };
 		E0B8A1B0202B8449005322E8 /* HeuristicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1AF202B8449005322E8 /* HeuristicsUITests.swift */; };
+		E0B8A1C1202B8A05005322E8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1C0202B8A05005322E8 /* Utilities.swift */; };
+		E0B8A1C3202B8A2A005322E8 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */; };
+		E0B8A1C6202B8A7C005322E8 /* Gate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A1C5202B8A7C005322E8 /* Gate.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		E0B8A1AB202B8449005322E8 /* HeuristicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeuristicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B8A1AF202B8449005322E8 /* HeuristicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeuristicsUITests.swift; sourceTree = "<group>"; };
 		E0B8A1B1202B8449005322E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B8A1C0202B8A05005322E8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		E0B8A1C5202B8A7C005322E8 /* Gate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gate.storyboard; sourceTree = "<group>"; };
 		EB6885D72313E01658EB99C8 /* Pods-Heuristics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heuristics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heuristics/Pods-Heuristics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +174,7 @@
 		E0B8A1BD202B8909005322E8 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8A1C0202B8A05005322E8 /* Utilities.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -175,6 +182,7 @@
 		E0B8A1BE202B8911005322E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,8 +190,17 @@
 		E0B8A1BF202B8911005322E8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8A1C4202B8A56005322E8 /* Gate */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E0B8A1C4202B8A56005322E8 /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8A1C5202B8A7C005322E8 /* Gate.storyboard */,
+			);
+			path = Gate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +322,7 @@
 				E0B8A19A202B8448005322E8 /* LaunchScreen.storyboard in Resources */,
 				E0B8A197202B8448005322E8 /* Assets.xcassets in Resources */,
 				E0B8A195202B8448005322E8 /* Main.storyboard in Resources */,
+				E0B8A1C6202B8A7C005322E8 /* Gate.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +494,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B8A1C3202B8A2A005322E8 /* BaseModel.swift in Sources */,
+				E0B8A1C1202B8A05005322E8 /* Utilities.swift in Sources */,
 				E0B8A190202B8448005322E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
