@@ -11,7 +11,6 @@
 		7C3ECCE81ED95CA43A2E0BEB /* Pods_HeuristicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6FE3E78468BF536B1A6407 /* Pods_HeuristicsUITests.framework */; };
 		D694955769257AF17DCA96F3 /* Pods_HeuristicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D693D25A68F082BC0FB6E /* Pods_HeuristicsTests.framework */; };
 		E0B8A190202B8448005322E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A18F202B8448005322E8 /* AppDelegate.swift */; };
-		E0B8A192202B8448005322E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A191202B8448005322E8 /* ViewController.swift */; };
 		E0B8A195202B8448005322E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A193202B8448005322E8 /* Main.storyboard */; };
 		E0B8A197202B8448005322E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A196202B8448005322E8 /* Assets.xcassets */; };
 		E0B8A19A202B8448005322E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A198202B8448005322E8 /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 		DC6FE3E78468BF536B1A6407 /* Pods_HeuristicsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeuristicsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B8A18C202B8448005322E8 /* Heuristics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heuristics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B8A18F202B8448005322E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0B8A191202B8448005322E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0B8A194202B8448005322E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0B8A196202B8448005322E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B8A199202B8448005322E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -137,8 +135,10 @@
 		E0B8A18E202B8448005322E8 /* Heuristics */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8A1BD202B8909005322E8 /* Configuration */,
+				E0B8A1BE202B8911005322E8 /* Models */,
+				E0B8A1BF202B8911005322E8 /* Scenes */,
 				E0B8A18F202B8448005322E8 /* AppDelegate.swift */,
-				E0B8A191202B8448005322E8 /* ViewController.swift */,
 				E0B8A193202B8448005322E8 /* Main.storyboard */,
 				E0B8A196202B8448005322E8 /* Assets.xcassets */,
 				E0B8A198202B8448005322E8 /* LaunchScreen.storyboard */,
@@ -163,6 +163,27 @@
 				E0B8A1B1202B8449005322E8 /* Info.plist */,
 			);
 			path = HeuristicsUITests;
+			sourceTree = "<group>";
+		};
+		E0B8A1BD202B8909005322E8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E0B8A1BE202B8911005322E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E0B8A1BF202B8911005322E8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,7 +476,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B8A192202B8448005322E8 /* ViewController.swift in Sources */,
 				E0B8A190202B8448005322E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,6 +729,7 @@
 				E0B8A1B6202B8449005322E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0B8A1B7202B8449005322E8 /* Build configuration list for PBXNativeTarget "HeuristicsTests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +738,7 @@
 				E0B8A1B9202B8449005322E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0B8A1BA202B8449005322E8 /* Build configuration list for PBXNativeTarget "HeuristicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +747,7 @@
 				E0B8A1BC202B8449005322E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
