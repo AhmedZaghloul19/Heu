@@ -7,14 +7,8 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Montserrat-Light.ttf">
-            <string>Montserrat-Light</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -28,26 +22,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="0Ty-2I-sEH">
-                                <rect key="frame" x="85" y="180.5" width="150" height="150"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="lbV-w5-rti">
+                                <rect key="frame" x="85" y="189" width="150" height="190"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="TCE-7E-okW">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="TCE-7E-okW" secondAttribute="height" multiplier="1:1" id="fwN-f6-JCx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H E U R I S T I C S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3s-zu-QIW">
+                                        <rect key="frame" x="0.0" y="166" width="150" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="0Ty-2I-sEH" secondAttribute="height" multiplier="1:1" id="luH-9d-B5k"/>
-                                    <constraint firstAttribute="width" constant="150" id="sWg-Mk-kAJ"/>
+                                    <constraint firstAttribute="width" constant="150" id="Dlp-QI-LZg"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEURISTICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIv-8y-tPa">
-                                <rect key="frame" x="106.5" y="338.5" width="108" height="22"/>
-                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="18"/>
-                                <color key="textColor" red="0.50980392159999999" green="0.45098039220000002" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uIv-8y-tPa" firstAttribute="centerX" secondItem="0Ty-2I-sEH" secondAttribute="centerX" id="5ox-FP-WmG"/>
-                            <constraint firstItem="0Ty-2I-sEH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GWt-Ix-zie"/>
-                            <constraint firstItem="0Ty-2I-sEH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.9" id="U2l-Z7-DaP"/>
-                            <constraint firstItem="uIv-8y-tPa" firstAttribute="top" secondItem="0Ty-2I-sEH" secondAttribute="bottom" constant="8" id="lKU-6c-sbk"/>
+                            <constraint firstItem="lbV-w5-rti" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RfV-3s-aPw"/>
+                            <constraint firstItem="lbV-w5-rti" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WH6-4d-9Xd"/>
                         </constraints>
                     </view>
                 </viewController>
