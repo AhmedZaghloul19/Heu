@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428F4F5203A3AFF009E0E5C /* AddMemoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F4F4203A3AFF009E0E5C /* AddMemoryVC.swift */; };
+		042B5F53203C1B2800139276 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F51203C1B2700139276 /* ChatViewController.swift */; };
+		042B5F54203C1B2800139276 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F52203C1B2700139276 /* ConversationsVC.swift */; };
+		042B5F57203C1D4800139276 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F56203C1D4800139276 /* Channel.swift */; };
+		042B5F59203C1DA500139276 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F58203C1DA500139276 /* User.swift */; };
+		042B5F5B203C1DE700139276 /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F5A203C1DE700139276 /* ReservationCell.swift */; };
+		042B5F5D203C3BED00139276 /* RemindersMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F5C203C3BED00139276 /* RemindersMapVC.swift */; };
+		042B5F5F203C3C8E00139276 /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F5E203C3C8E00139276 /* Geotification.swift */; };
+		042B5F61203C3CD700139276 /* AddGeotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F60203C3CD700139276 /* AddGeotificationViewController.swift */; };
+		042B5F63203C3F1700139276 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 042B5F62203C3F1700139276 /* TestLocations.gpx */; };
+		042B5F66203C4AE700139276 /* BrowseUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F65203C4AE700139276 /* BrowseUsersVC.swift */; };
+		042B5F68203C5BD700139276 /* GeoMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B5F67203C5BD700139276 /* GeoMessagesVC.swift */; };
+		04DDEBEF2030734A006E636F /* MemoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBED2030734A006E636F /* MemoriesVC.swift */; };
+		04DDEBF2203073C7006E636F /* Memories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEBF1203073C7006E636F /* Memories.storyboard */; };
+		04DDEBF4203074CB006E636F /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBF3203074CB006E636F /* SearchFooter.swift */; };
+		04DDEBF620307529006E636F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBF520307528006E636F /* BaseViewController.swift */; };
+		04DDEBF920307554006E636F /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBF720307554006E636F /* ConnectionErrorView.swift */; };
+		04DDEBFA20307554006E636F /* ConnectionErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEBF820307554006E636F /* ConnectionErrorView.xib */; };
+		04DDEBFE2030761A006E636F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBFD2030761A006E636F /* Extensions.swift */; };
+		04DDEC0020307B52006E636F /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEBFF20307B52006E636F /* MemoryCell.swift */; };
+		04DDEC062030993C006E636F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEC052030993C006E636F /* GoogleService-Info.plist */; };
+		04DDEC0920309F0B006E636F /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEC0820309F0B006E636F /* Memory.swift */; };
+		04DDEC0B20309F24006E636F /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEC0A20309F24006E636F /* BaseModel.swift */; };
 		72FAF6FDBD6DA6A6EA1A3F7A /* Pods_Heuristics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A23BE1A968E36342654F4B /* Pods_Heuristics.framework */; };
 		7C3ECCE81ED95CA43A2E0BEB /* Pods_HeuristicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6FE3E78468BF536B1A6407 /* Pods_HeuristicsUITests.framework */; };
 		D694955769257AF17DCA96F3 /* Pods_HeuristicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D693D25A68F082BC0FB6E /* Pods_HeuristicsTests.framework */; };
@@ -27,7 +50,6 @@
 		E0B8A1A5202B8449005322E8 /* HeuristicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1A4202B8449005322E8 /* HeuristicsTests.swift */; };
 		E0B8A1B0202B8449005322E8 /* HeuristicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1AF202B8449005322E8 /* HeuristicsUITests.swift */; };
 		E0B8A1C1202B8A05005322E8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1C0202B8A05005322E8 /* Utilities.swift */; };
-		E0B8A1C3202B8A2A005322E8 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */; };
 		E0B8A1C6202B8A7C005322E8 /* Gate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A1C5202B8A7C005322E8 /* Gate.storyboard */; };
 		E0B8A1DA202B9654005322E8 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A1C8202B9653005322E8 /* Montserrat-LightItalic.ttf */; };
 		E0B8A1DB202B9654005322E8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0B8A1C9202B9653005322E8 /* Montserrat-Medium.ttf */; };
@@ -76,6 +98,29 @@
 
 /* Begin PBXFileReference section */
 		0198802B353CD5EC1E08B7E3 /* Pods-HeuristicsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeuristicsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeuristicsUITests/Pods-HeuristicsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0428F4F4203A3AFF009E0E5C /* AddMemoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoryVC.swift; sourceTree = "<group>"; };
+		042B5F51203C1B2700139276 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		042B5F52203C1B2700139276 /* ConversationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
+		042B5F56203C1D4800139276 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		042B5F58203C1DA500139276 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		042B5F5A203C1DE700139276 /* ReservationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		042B5F5C203C3BED00139276 /* RemindersMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersMapVC.swift; sourceTree = "<group>"; };
+		042B5F5E203C3C8E00139276 /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		042B5F60203C3CD700139276 /* AddGeotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeotificationViewController.swift; sourceTree = "<group>"; };
+		042B5F62203C3F1700139276 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+		042B5F65203C4AE700139276 /* BrowseUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseUsersVC.swift; sourceTree = "<group>"; };
+		042B5F67203C5BD700139276 /* GeoMessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMessagesVC.swift; sourceTree = "<group>"; };
+		04DDEBED2030734A006E636F /* MemoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesVC.swift; sourceTree = "<group>"; };
+		04DDEBF1203073C7006E636F /* Memories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memories.storyboard; sourceTree = "<group>"; };
+		04DDEBF3203074CB006E636F /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		04DDEBF520307528006E636F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04DDEBF720307554006E636F /* ConnectionErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
+		04DDEBF820307554006E636F /* ConnectionErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionErrorView.xib; sourceTree = "<group>"; };
+		04DDEBFD2030761A006E636F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04DDEBFF20307B52006E636F /* MemoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
+		04DDEC052030993C006E636F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04DDEC0820309F0B006E636F /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		04DDEC0A20309F24006E636F /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		40531D7DC9D04968C5DA977D /* Pods-Heuristics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heuristics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Heuristics/Pods-Heuristics.debug.xcconfig"; sourceTree = "<group>"; };
 		451CFD06B8034CC7EABA4174 /* Pods-HeuristicsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeuristicsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeuristicsUITests/Pods-HeuristicsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67A23BE1A968E36342654F4B /* Pods_Heuristics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heuristics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +151,6 @@
 		E0B8A1AF202B8449005322E8 /* HeuristicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeuristicsUITests.swift; sourceTree = "<group>"; };
 		E0B8A1B1202B8449005322E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0B8A1C0202B8A05005322E8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		E0B8A1C5202B8A7C005322E8 /* Gate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gate.storyboard; sourceTree = "<group>"; };
 		E0B8A1C8202B9653005322E8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		E0B8A1C9202B9653005322E8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
@@ -165,6 +209,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042B5F55203C1B3000139276 /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				042B5F52203C1B2700139276 /* ConversationsVC.swift */,
+				042B5F51203C1B2700139276 /* ChatViewController.swift */,
+			);
+			path = Chatting;
+			sourceTree = "<group>";
+		};
+		042B5F64203C477600139276 /* GeoMessages */ = {
+			isa = PBXGroup;
+			children = (
+				042B5F5C203C3BED00139276 /* RemindersMapVC.swift */,
+				042B5F67203C5BD700139276 /* GeoMessagesVC.swift */,
+				042B5F60203C3CD700139276 /* AddGeotificationViewController.swift */,
+				042B5F65203C4AE700139276 /* BrowseUsersVC.swift */,
+			);
+			path = GeoMessages;
+			sourceTree = "<group>";
+		};
+		042B5F69203C62B000139276 /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				04DDEBED2030734A006E636F /* MemoriesVC.swift */,
+				0428F4F4203A3AFF009E0E5C /* AddMemoryVC.swift */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		04DDEBEC203072CC006E636F /* AhmedZaghloul */ = {
+			isa = PBXGroup;
+			children = (
+				04DDEBFC20307573006E636F /* Views */,
+				04DDEC0720309EFA006E636F /* Models */,
+				04DDEC0C2030A067006E636F /* Controllers */,
+				04DDEBF1203073C7006E636F /* Memories.storyboard */,
+			);
+			path = AhmedZaghloul;
+			sourceTree = "<group>";
+		};
+		04DDEBFB2030755B006E636F /* ConnectionErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				04DDEBF720307554006E636F /* ConnectionErrorView.swift */,
+				04DDEBF820307554006E636F /* ConnectionErrorView.xib */,
+			);
+			path = ConnectionErrorView;
+			sourceTree = "<group>";
+		};
+		04DDEBFC20307573006E636F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DDEBFB2030755B006E636F /* ConnectionErrorView */,
+				04DDEBF3203074CB006E636F /* SearchFooter.swift */,
+				04DDEBFF20307B52006E636F /* MemoryCell.swift */,
+				042B5F5A203C1DE700139276 /* ReservationCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04DDEC0720309EFA006E636F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042B5F58203C1DA500139276 /* User.swift */,
+				042B5F56203C1D4800139276 /* Channel.swift */,
+				04DDEC0A20309F24006E636F /* BaseModel.swift */,
+				04DDEC0820309F0B006E636F /* Memory.swift */,
+				042B5F5E203C3C8E00139276 /* Geotification.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04DDEC0C2030A067006E636F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DDEBF520307528006E636F /* BaseViewController.swift */,
+				042B5F69203C62B000139276 /* Memories */,
+				042B5F64203C477600139276 /* GeoMessages */,
+				042B5F55203C1B3000139276 /* Chatting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		645961B744105997F383AE0E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,13 +379,14 @@
 			isa = PBXGroup;
 			children = (
 				E0B8A1BD202B8909005322E8 /* Configuration */,
-				E0B8A1BE202B8911005322E8 /* Models */,
 				E0B8A1BF202B8911005322E8 /* Scenes */,
 				E0B8A18F202B8448005322E8 /* AppDelegate.swift */,
 				E0B8A193202B8448005322E8 /* Main.storyboard */,
 				E0B8A196202B8448005322E8 /* Assets.xcassets */,
 				E0B8A198202B8448005322E8 /* LaunchScreen.storyboard */,
+				042B5F62203C3F1700139276 /* TestLocations.gpx */,
 				E0B8A19B202B8448005322E8 /* Info.plist */,
+				04DDEC052030993C006E636F /* GoogleService-Info.plist */,
 			);
 			path = Heuristics;
 			sourceTree = "<group>";
@@ -293,14 +421,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		E0B8A1BE202B8911005322E8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E0B8A1C2202B8A2A005322E8 /* BaseModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		E0B8A1BF202B8911005322E8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +429,7 @@
 				E05F825E202FB5D90090CC91 /* Followers and Following */,
 				E0B8A1C4202B8A56005322E8 /* Gate */,
 				E0B8A1FB202BD2EA005322E8 /* Home */,
+				04DDEBEC203072CC006E636F /* AhmedZaghloul */,
 				E05F8272203069260090CC91 /* Menu */,
 			);
 			path = Scenes;
@@ -354,6 +475,7 @@
 			isa = PBXGroup;
 			children = (
 				E0B8A1EE202B976E005322E8 /* UIColor.swift */,
+				04DDEBFD2030761A006E636F /* Extensions.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -487,7 +609,9 @@
 				E0B8A1EA202B9654005322E8 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				E0B8A1E6202B9654005322E8 /* Montserrat-ExtraBold.ttf in Resources */,
 				E0B8A19A202B8448005322E8 /* LaunchScreen.storyboard in Resources */,
+				04DDEBF2203073C7006E636F /* Memories.storyboard in Resources */,
 				E0B8A1E3202B9654005322E8 /* Montserrat-BlackItalic.ttf in Resources */,
+				04DDEBFA20307554006E636F /* ConnectionErrorView.xib in Resources */,
 				E0B8A1E2202B9654005322E8 /* Montserrat-MediumItalic.ttf in Resources */,
 				E0B8A1DC202B9654005322E8 /* Montserrat-BoldItalic.ttf in Resources */,
 				E0B8A197202B8448005322E8 /* Assets.xcassets in Resources */,
@@ -508,7 +632,9 @@
 				E0B8A1E9202B9654005322E8 /* Montserrat-Italic.ttf in Resources */,
 				E0B8A1DB202B9654005322E8 /* Montserrat-Medium.ttf in Resources */,
 				E05F8263202FB6480090CC91 /* FollowViewController.xib in Resources */,
+				042B5F63203C3F1700139276 /* TestLocations.gpx in Resources */,
 				E0B8A1C6202B8A7C005322E8 /* Gate.storyboard in Resources */,
+				04DDEC062030993C006E636F /* GoogleService-Info.plist in Resources */,
 				E0B8A1DF202B9654005322E8 /* Montserrat-ExtraLight.ttf in Resources */,
 				E0B8A1E7202B9654005322E8 /* Montserrat-Black.ttf in Resources */,
 				E0B8A1EB202B9654005322E8 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
@@ -619,9 +745,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Heuristics/Pods-Heuristics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -685,18 +828,36 @@
 			files = (
 				E05F8262202FB6470090CC91 /* FollowViewController.swift in Sources */,
 				E05F8275203069370090CC91 /* MenuViewController.swift in Sources */,
+				042B5F5B203C1DE700139276 /* ReservationCell.swift in Sources */,
+				042B5F5F203C3C8E00139276 /* Geotification.swift in Sources */,
 				E0B8A1FA202BD111005322E8 /* SignupViewController.swift in Sources */,
+				042B5F57203C1D4800139276 /* Channel.swift in Sources */,
 				E05F826A203041460090CC91 /* FollowTableViewCell.swift in Sources */,
+				042B5F59203C1DA500139276 /* User.swift in Sources */,
+				042B5F54203C1B2800139276 /* ConversationsVC.swift in Sources */,
 				E0B8A1F2202BA1DE005322E8 /* GradientBackground.swift in Sources */,
+				042B5F5D203C3BED00139276 /* RemindersMapVC.swift in Sources */,
+				042B5F66203C4AE700139276 /* BrowseUsersVC.swift in Sources */,
+				04DDEBF620307529006E636F /* BaseViewController.swift in Sources */,
+				042B5F61203C3CD700139276 /* AddGeotificationViewController.swift in Sources */,
+				04DDEBEF2030734A006E636F /* MemoriesVC.swift in Sources */,
+				042B5F68203C5BD700139276 /* GeoMessagesVC.swift in Sources */,
+				04DDEBF4203074CB006E636F /* SearchFooter.swift in Sources */,
 				E0B8A1F6202BACB3005322E8 /* LandingViewController.swift in Sources */,
-				E0B8A1C3202B8A2A005322E8 /* BaseModel.swift in Sources */,
 				E05F826F203052190090CC91 /* EditProfileViewController.swift in Sources */,
+				042B5F53203C1B2800139276 /* ChatViewController.swift in Sources */,
 				E0B8A1F4202BA5DF005322E8 /* DesignableViews.swift in Sources */,
 				E05F8266202FB6630090CC91 /* ProfileViewController.swift in Sources */,
 				E0B8A1FE202BD326005322E8 /* HomeViewController.swift in Sources */,
+				0428F4F5203A3AFF009E0E5C /* AddMemoryVC.swift in Sources */,
 				E0B8A1F8202BD0F8005322E8 /* SigninViewController.swift in Sources */,
+				04DDEBFE2030761A006E636F /* Extensions.swift in Sources */,
+				04DDEC0920309F0B006E636F /* Memory.swift in Sources */,
+				04DDEC0020307B52006E636F /* MemoryCell.swift in Sources */,
+				04DDEBF920307554006E636F /* ConnectionErrorView.swift in Sources */,
 				E0B8A1EF202B976E005322E8 /* UIColor.swift in Sources */,
 				E0B8A1C1202B8A05005322E8 /* Utilities.swift in Sources */,
+				04DDEC0B20309F24006E636F /* BaseModel.swift in Sources */,
 				E0B8A190202B8448005322E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
